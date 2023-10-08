@@ -1,6 +1,6 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe: User vs. Computer
 
-This is a simple implementation of the classic Tic-Tac-Toe game in Python. The game allows two players to take turns and also includes a smart computer player.
+Welcome to the Tic-Tac-Toe game where you can challenge your wit against a smart computer opponent. Can you outsmart the computer and claim victory?
 
 ## Table of Contents
 - [How to Play](#how-to-play)
@@ -8,27 +8,27 @@ This is a simple implementation of the classic Tic-Tac-Toe game in Python. The g
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## How to Play
 
 1. The game starts with an empty 3x3 grid.
-2. Players take turns to make their moves.
-3. To make a move, enter a number between 1 and 9.
+2. You, the user, play as "X" and the computer plays as "O."
+3. To make your move, enter a number between 1 and 9.
 4. The grid is numbered from left to right and top to bottom like this:
+
 1 | 2 | 3
 ---------
 4 | 5 | 6
 ---------
 7 | 8 | 9
-5. The goal is to get three of your marks (X or O) in a row horizontally, vertically, or diagonally.
-6. The game ends when one player wins or when it's a draw.
+5. The computer will automatically make its move after you make yours.
+6. The goal is to get three of your marks (X) in a row horizontally, vertically, or diagonally.
+7. The game ends when you win, the computer wins, or it's a draw.
 
 ## Features
 
-- Player vs. Player: Two human players can take turns.
-- Player vs. Computer: You can play against a smart computer opponent.
-- Smart Computer: The computer player tries to win and block the opponent from winning.
+- User vs. Computer: Challenge yourself against a smart computer opponent.
+- Smart Computer: The computer player is designed to make strategic moves.
 - Win Detection: The game checks for winning moves and declares a winner.
 - Draw Detection: The game detects when the board is full, resulting in a draw.
 
@@ -41,16 +41,9 @@ This is a simple implementation of the classic Tic-Tac-Toe game in Python. The g
 ## Usage
 
 1. Execute the `tic_tac_toe.py` script using Python.
-2. Follow the on-screen instructions to play the game.
-3. Make your moves by entering a number between 1 and 9.
-4. Enjoy the game!
+2. Follow the on-screen instructions to make your moves.
+3. Enjoy the challenge of playing against the computer!
 
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this Tic-Tac-Toe game.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Have fun playing Tic-Tac-Toe!
